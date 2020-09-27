@@ -2,7 +2,7 @@
 
 This repo contains apps built using Flutter.
 
-## 1.Personal Expenses Tracker
+## 1. Personal Expenses Tracker
  * Explored numerous widgets built into Flutter.
  * Usage of stateful and stateless widgets and lifting up state.
  * Wiring different widgets and passing data.
