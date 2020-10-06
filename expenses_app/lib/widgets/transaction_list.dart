@@ -12,10 +12,9 @@ class TransactionList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height:500,
-      child: transactions.isEmpty ? 
-      Column(
+    return transactions.isEmpty ? 
+      LayoutBuilder(builder: (ctx,constraints){
+        return Column(
         children:<Widget>[
         Text('No Transactions available',
         style:Theme.of(context).textTheme.title,
@@ -24,10 +23,12 @@ class TransactionList extends StatelessWidget {
           height: 15,
         ),
         Container(
-          height:200,
+          height:constraints.maxHeight * 0.6,
           child: Image.asset(
             'assets/images/waiting.png',fit:BoxFit.cover,)),
-      ],):ListView.builder(
+        ],
+        );
+      }) :ListView.builder(
         itemBuilder: (ctx,index) {
             return Card(
               margin: EdgeInsets.symmetric(vertical: 8,horizontal:5),
@@ -56,7 +57,6 @@ class TransactionList extends StatelessWidget {
             );
         },
         itemCount: transactions.length,
-      ),
-    );
+      );
   }
 }
