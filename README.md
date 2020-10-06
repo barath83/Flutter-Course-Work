@@ -9,3 +9,12 @@
  * Theming concepts and several styling methods.
  * Adding customs fonts and images to the project.
  * Worked on using widget tress properly with clean seperation of code.
+ 
+ ## 2.Responsive and Adaptive User-Interfaces
+ * Making Flutter apps responsive in different orientations.
+ * Dynamically rendering UI widgets with specific height based on device width & height.
+ * Ideal use of MediaQuery and it's several properties.
+ * Disabling Landscape mode.
+ * Identifying orientation and platform that the app runs on.
+ * Using Device size and platform with conditions.
+
