@@ -1,3 +1,11 @@
 # Flutter-Course-Work
 
-This repository contains applications built using Flutter which probably would cover most of the Flutter basics.
+This repo contains apps built using Flutter.
+
+## 1. Personal Expenses Tracker
+ * Explored numerous widgets built into Flutter.
+ * Usage of stateful and stateless widgets and lifting up state.
+ * Wiring different widgets together and passing data between them.
+ * Theming concepts and several styling methods.
+ * Adding customs fonts and images to the project.
+ * Worked on using widget tress properly with clean seperation of code.
