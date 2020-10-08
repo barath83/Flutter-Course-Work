@@ -11,7 +11,7 @@
  * Adding customs fonts and images to the project.
  * Worked on using widget tress properly with clean seperation of code.
  
- ## 2.Responsive and Adaptive User-Interfaces
+ ## 2. Responsive and Adaptive User-Interfaces
  [Flutter & Dart Complete Guide - Udemy](https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/) - Module 5
  * Making Flutter apps responsive in different orientations.
  * Dynamically rendering UI widgets with specific height based on device width & height.
